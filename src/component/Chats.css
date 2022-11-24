@@ -1,0 +1,559 @@
+.Container{
+    height: 100vh;
+}
+
+.bg-Color{
+    background-color: #e3f0f8;
+    height: 100vh;
+    padding: none
+    !important;
+}
+
+.ot-Color{
+    background-color: #6b0092;
+    height: 93vh;
+    border-radius: 30px;
+    margin: 20px 0 0 15px;
+}
+.logoSizing{
+    width: 40px;
+    height: 40px;
+    margin: 20px 0 0 0;
+    cursor: pointer;
+}
+
+.otherIcon{
+    margin-top: 70%;
+}
+.downIcon{
+    
+    margin-top: 150%;
+}
+.icon{
+    color: #e3f0f8;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    cursor: pointer;
+    font-size: 30px;
+}
+.icontxt{
+    font-size: 8px;
+    font-weight: bold;
+    color: #e3f0f8;
+}
+.icon:hover{
+    color: #c451eb;
+    /* box-shadow: 0 2px 5px rgba(255, 253, 253, 0.982), 0 2px 10px 0 rgba(252, 12, 12, 0.933); */
+    border-radius: 50px;
+}
+.msgtop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.msg-Color{
+    height: 93vh;
+    margin-top: 30px;
+}
+.Messagtxt{
+    font-weight: bold;
+    font-size: 30px;}
+.SearchTxt{
+    width: 0;
+    padding: 0;
+    border-radius: 5rem;
+    padding-right: 2px;
+    border: none;
+    outline: none;
+    transition: all 0.2s linear;
+}
+.SearchTxt:focus{
+    outline: none;
+}
+.searchBar{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchBtn{
+    border: none;
+    width: 3rem;
+    height: 3rem;
+    background-color: #6b0092;
+    color: white;
+    right: 1rem;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+}
+.searchBar:hover>.SearchTxt{
+    width: 10rem;
+    /* box-shadow: 0 2rem 2rem -1.5rem rgb(10, 10, 10, 0.5); */
+}
+.searchBar:hover>.searchBtn{
+    background-color: #e3f0f8;
+    color: #6b0092;
+    background: none;
+}
+
+.badge {
+    background-color: red;
+    color: white;
+    font-size: 15px !important;
+    padding: 2px 1px !important;
+    text-align: center;
+    border-radius: 50px;
+  }
+
+  .chatBtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 10px 0 10px;
+  }
+  .chatBtnTxt{
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    border-bottom: 2px solid #e3f0f8;
+  }
+  .chatBtnTxt:hover{
+    color: #6b0092;
+    border-bottom: 2px solid #6b0092;
+  }
+
+  .friend {
+    margin-top: 10px;
+    padding: 10px 15px 0 15px;
+    display: flex;
+    background: #fff;
+    cursor: pointer;
+}
+    .text {
+      margin-left: 12px;
+      width: 70%; 
+      
+    }
+    .time {
+      color: grey;
+    }
+.profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+  }
+
+  .starIcon{
+    margin-right: 10px;
+  }
+ .starIcon:hover{
+    fill: #6b0092;
+ }
+ .fullDisplay{
+    background-color: white;
+ }
+ .navBar{
+    width: 100%;
+    height: 8%;
+    border-radius: 10px;
+    background-color: #e3f0f8;
+ }
+ .innerNavElem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 15px;
+    padding-top: 3px;
+ }
+ .navprofile-image{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+ }
+ .userName{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-weight: 600;
+ }
+ .icons{
+    color: #6b0092;
+    font-size: 25px;
+ }
+
+ .messages{
+    background-color: white;
+  }
+
+.input{
+    background-color: #e3f0f8;
+    height: 70%;
+    width: 90%;
+    border-radius: 20px;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.designinput{
+    width: 75%;
+    background: none;
+    border: none;
+}
+.recIcon{
+    font-size: 25px;
+    padding-left: 5px;
+    color: #6b0092;
+}
+.badge2 {
+    background-color: #6b0092;
+    color: #e3f0f8;
+    padding: 8px 10px;
+    text-align: center;
+    border-radius: 50%;
+  }
+  .othIcon{
+    font-size: 20px;
+    padding-left: 5px;
+    color: #6b0092;
+  }
+
+.profileInfo{
+    background-color: white;
+}
+.personalProfile{
+    height: 7vh;
+    margin: 50px 0 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.personalImg{
+    padding-right: 20px;
+}
+.personal-profile-image{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+}
+
+.NotiIcon{
+margin-left: 5px;
+font-size: 26px;
+color: #6b0092;
+}
+.user-profile{
+    background-color: #e3f0f8;
+    height: 76vh;
+    margin-top: 20%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 20px 20px 0px 0px;
+}
+.innerUserProfile{
+}
+.user-profile-image{
+    margin-top: 5%;
+width: 150px;
+height: 150px;
+background: white;
+border-radius: 100px;
+}
+ @media screen and (max-width: 915px) and (min-width: 50px) {
+    .logoSizing{
+        width: 12px;
+        height: 12px;
+    }
+    .icon{
+        font-size: 12px;
+    }
+    .icontxt{
+        font-size: 4px;}
+        .Messagtxt{
+            font-size: 7px;
+        }
+        .SearchTxt{
+            width: 0;
+            padding: 0;
+        }
+        .fa-search{
+            font-size: 5px;
+        }
+        .searchBtn{
+            display: none;
+        }
+        
+        .badge {
+            font-size: 5px !important;
+            border-radius: 50px;
+          }
+          .chatBtnTxt{
+            font-size: 5px;
+            font-weight: 500;
+          }
+          .chatBtn{
+            margin: 25px 0px 0 0px;
+          }
+          .contPer{
+            font-size: 10px;
+          }
+          
+      .profile-image {
+          width: 25px;
+          height: 25px;
+          border-radius: 20px;
+        }
+        .text {
+            margin-left: 1px;
+            width: 20%; 
+            
+          }
+          .friend {
+            padding: 0px 0px;}
+        .starIcon{
+            display: none;
+        }
+        .time{
+              display: none;
+          }
+          
+          .innerNavElem{
+            margin: 0px 15px;
+            padding-top: 0px;
+         }
+         .navprofile-image{
+            width: 15px;
+            height: 15px;
+         }
+         .userName{
+            padding-left: 1px;
+            padding-right: 1px;
+            font-size: 6px;
+            font-weight: 600;
+         }
+         .icons{
+            color: #6b0092;
+            font-size: 5px;
+         }
+
+         .recIcon{
+            font-size: 10px;
+            padding-left: 5px;
+            color: #6b0092;
+        }
+        .badge2 {
+            background-color: #6b0092;
+            color: #e3f0f8;
+            padding: 4px 5px;
+            text-align: center;
+            border-radius: 50%;
+          }
+          .othIcon{
+            font-size: 10px;
+            padding-left: 2px;
+            color: #6b0092;
+          }
+
+        .personalImg{
+            padding-right: 0px;
+        }
+        .personal-profile-image{
+            width: 15px;
+            height: 15px;
+            border-radius: 50px;
+        }
+        
+        .NotiIcon{
+        margin-left: 10px;
+        font-size: 10px;
+        color: #6b0092;
+        }
+        .user-profile{
+            background-color: #e3f0f8;
+            height: 76vh;
+            margin-top: 20%;
+            margin-right: 5%;
+            margin-left: 5%;
+            border-radius: 20px 20px 0px 0px;
+        }
+        .status{
+            font-size: 5px;
+        }
+        .mediBtns{
+            font-size: 5px;
+            padding: 0px;
+        }
+        .user-profile-image{
+            margin-top: 5%;
+        width: 20px;
+        height: 20px;
+        background: white;
+        border-radius: 100px;
+        }
+        
+}
+
+/* .leftSide{
+    margin: 20px 0px 20px 30px !important;
+    
+}
+.rightSide{
+    margin: 20px 30px 20px 0px !important;
+}
+
+.sizing{
+    height: 600px;
+    background-color: #ffffff;
+    border: 2px solid #c6bfbf;
+}
+
+.sizingRight{
+    height: 600px;
+    background-color: #ffffff;
+    border: 2px solid #c6bfbf;
+    border-left: none !important;
+
+
+}
+.input-group-text{
+    background-color: lightblue !important;
+    border: none !important;
+    padding: 10px 0 10px 0 !important;
+}
+.fa-search{
+    padding: 0 5px 0 5px !important;
+    color: rgb(34, 171, 216);
+}
+.searchBox{
+    margin-top: 20px !important;
+    margin-left: 15px !important;
+    margin-bottom: 25px !important;
+}
+.form-control{
+    border: none !important;
+    background-color: lightblue !important;
+}
+.form-control:focus{
+    outline: none !important;
+}
+
+.friend {
+    padding: 10px 15px !important;
+    display: flex;
+    background: #fff;
+    cursor: pointer;
+}
+    .text {
+      margin-left: 12px !important;
+      width: 70%; 
+    }
+    .time {
+      color: grey;
+    }
+.profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+  }
+
+  .profile-image1{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+  }
+  .name{
+    color: black;
+    padding-left: 10px !important;
+  }
+  .img1{
+    width: 20px;
+    height: 20px;
+    padding-right: 5px !important;
+  }
+
+.chatInfo{
+    height: 50px;
+    border-bottom: 2px solid #c6bfbf;
+    margin: 0 !important;
+    padding: 0;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px !important;
+    color: lightgray;
+}
+
+  .chatIcon{
+      display: flex;
+    gap: 10px;
+}
+
+.messages{
+    border-bottom: 1px solid #c6bfbf;
+    height: 500px;
+  }
+
+.input{
+    margin-top: 8px !important;
+    display: flex;
+}
+.fa-paperclip{
+    margin-top: 8px !important;
+    font-size: 20px;
+    padding-left:  15px !important;
+    padding-right:  15px  !important;
+}
+.fa-send-o{
+    margin-top: 8px  !important;
+    font-size: 20px;
+    padding-left:  10px  !important;
+    padding-right:  15px  !important;   
+} */
+
+.formContainer{
+    background-color: #a7bcff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;} 
+.wrapper{
+    background-color: white;
+    padding: 20px 60px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.heading{
+    color: #5d5b8d;
+    font-weight: bold;
+    font-size: 24px;
+}
+.title{
+    color: #5d5b8d;
+    font-size: 12px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.inputform{
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid #a7bcff;
+    outline: none;
+}
+.loginbtn{
+    background-color: #a7bcff;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
